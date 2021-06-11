@@ -13,7 +13,7 @@
   top: 0;
   transform: rotate(90deg);
 }
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:checked ~ .menu {
   visibility: visible;
   left: 0;
 }
@@ -54,7 +54,7 @@
   top: 8px;
 }
 
-.menu__box {
+.menu {
   display: block;
   position: fixed;
   visibility: hidden;
